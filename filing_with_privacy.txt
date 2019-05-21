@@ -1,0 +1,271 @@
+-----BEGIN PRIVACY-ENHANCED MESSAGE-----
+Proc-Type: 2001,MIC-CLEAR
+Originator-Name: webmaster@www.sec.gov
+Originator-Key-Asymmetric:
+ MFgwCgYEVQgBAQICAf8DSgAwRwJAW2sNKK9AVtBzYZmr6aGjlWyK3XmZv3dTINen
+ TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB
+MIC-Info: RSA-MD5,RSA,
+ Gz4fO1+NGisVsmHQN2guahsS+qPPGmKAOO7QkQUre1rj5SaH+XVQ89eiHXB88DZw
+ 61RyM1cdRBn52tLdVD3XzQ==
+
+<SEC-DOCUMENT>0000919574-09-006093.txt : 20090316
+<SEC-HEADER>0000919574-09-006093.hdr.sgml : 20090316
+<ACCEPTANCE-DATETIME>20090316112218
+ACCESSION NUMBER:		0000919574-09-006093
+CONFORMED SUBMISSION TYPE:	D
+PUBLIC DOCUMENT COUNT:		1
+ITEM INFORMATION:		Rule 506
+ITEM INFORMATION:		Investment Company Act Section 3(c)
+ITEM INFORMATION:		Section 3(c)(1)
+FILED AS OF DATE:		20090316
+DATE AS OF CHANGE:		20090316
+EFFECTIVENESS DATE:		20090316
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			GABELLI INTERNATIONAL GOLD FUND LTD.
+		CENTRAL INDEX KEY:			0001456986
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			D0
+
+	FILING VALUES:
+		FORM TYPE:		D
+		SEC ACT:		1933 Act
+		SEC FILE NUMBER:	021-127918
+		FILM NUMBER:		09682911
+
+	BUSINESS ADDRESS:	
+		STREET 1:		ONE CORPORATE CENTER
+		CITY:			RYE
+		STATE:			NY
+		ZIP:			10580
+		BUSINESS PHONE:		914-921-5133
+
+	MAIL ADDRESS:	
+		STREET 1:		ONE CORPORATE CENTER
+		CITY:			RYE
+		STATE:			NY
+		ZIP:			10580
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>D
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0301</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001456986</cik>
+        <entityName>GABELLI INTERNATIONAL GOLD FUND LTD.</entityName>
+        <issuerAddress>
+            <street1>c/o MQ Services Ltd., Chancery Hall</street1>
+            <street2>52 Reid Street</street2>
+            <city>Hamilton</city>
+            <stateOrCountry>D0</stateOrCountry>
+            <zipCode>HM12</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>345-949-7942</issuerPhoneNumber>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <jurisdictionOfInc>D0</jurisdictionOfInc>
+        <entityType>Other</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Douglas</firstName>
+                <middleName>R.</middleName>
+                <lastName>Jamieson</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>c/o Gabelli Securities Inc.</street1>
+                <street2>One Corporate Center</street2>
+                <city>Rye</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <zipCode>10580</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Douglas R. Jamieson is an executive officer of Gabelli Securities Inc., the Investment Advisor to the Issuer.</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Joseph</firstName>
+                <middleName>R.</middleName>
+                <lastName>Rindler</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>c/o Gabelli Securities Inc.</street1>
+                <street2>One Corporate Center</street2>
+                <city>Rye</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <zipCode>10580</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Nicholas</firstName>
+                <middleName></middleName>
+                <lastName>Hoskins</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>c/o Wakefield Quin</street1>
+                <street2>52 Reid Street</street2>
+                <city>Hamilton</city>
+                <stateOrCountry>D0</stateOrCountry>
+                <zipCode>HM12</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Roderick</firstName>
+                <middleName>M.</middleName>
+                <lastName>Forrest</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>c/o Wakefield Quin</street1>
+                <street2>52 Reid Street</street2>
+                <city>Hamilton</city>
+                <stateOrCountry>D0</stateOrCountry>
+                <zipCode>HM12</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Marc</firstName>
+                <middleName>J.</middleName>
+                <lastName>Gabelli</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>c/o Gabelli Securities Inc.</street1>
+                <street2>One Corporate Center</street2>
+                <city>Rye</city>
+                <stateOrCountry>NY</stateOrCountry>
+                <zipCode>10580</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Hedge Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <aggregateNetAssetValueRange>Decline to Disclose</aggregateNetAssetValueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06</item>
+            <item>3C</item>
+            <item>3C.1</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2008-02-01</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>true</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>250000</minimumInvestmentAccepted>
+        <salesCompensationList>
+            <recipient>
+                <recipientName>Gabelli &amp; Company</recipientName>
+                <recipientCRDNumber>7353</recipientCRDNumber>
+                <associatedBDName>None</associatedBDName>
+                <associatedBDCRDNumber>None</associatedBDCRDNumber>
+                <recipientAddress>
+                    <street1>One Corporate Center</street1>
+                    <city>Rye</city>
+                    <stateOrCountry>NY</stateOrCountry>
+                    <zipCode>10580</zipCode>
+                </recipientAddress>
+                <statesOfSolicitationList>
+                    <value>All States</value>
+                </statesOfSolicitationList>
+            </recipient>
+        </salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>Indefinite</totalOfferingAmount>
+            <totalAmountSold>500000</totalAmountSold>
+            <totalRemaining>Indefinite</totalRemaining>
+            <clarificationOfResponse>This is an amendment filing to a Form D previously filed on February 14, 2008.</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>1</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </findersFees>
+            <clarificationOfResponse>The firm(s) listed in Item 12 above are paid directly or indirectly commissions or similar sales compensation equal to a percentage of the fee paid to the General Partner from the assets under management and/or the incentive allocation.</clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+                <isEstimate>true</isEstimate>
+            </grossProceedsUsed>
+            <clarificationOfResponse>The Investment Manager is entitled to receive an  annual management fee in an amount equal to a specified percentage of assets under management.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Gabelli International Gold Fund, Ltd.</issuerName>
+                <signatureName>/s/ Douglas R. Jamieson</signatureName>
+                <nameOfSigner>Douglas R. Jamieson</nameOfSigner>
+                <signatureTitle>President of the Manager</signatureTitle>
+                <signatureDate>2009-03-16</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
+-----END PRIVACY-ENHANCED MESSAGE-----

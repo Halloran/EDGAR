@@ -1,0 +1,166 @@
+<XML>
+<edgarSubmission>
+
+    <schemaVersion>X0708</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001745524</cik>
+        <entityName>Upshot Real Estate Fund II, LP</entityName>
+        <issuerAddress>
+            <street1>255 S. ORANGE AVE., SUITE 720</street1>
+            <city>ORLANDO</city>
+            <stateOrCountry>FL</stateOrCountry>
+            <stateOrCountryDescription>FLORIDA</stateOrCountryDescription>
+            <zipCode>32801</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>407-986-5370</issuerPhoneNumber>
+        <jurisdictionOfInc>DELAWARE</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Partnership</entityType>
+        <yearOfInc>
+            <withinFiveYears>true</withinFiveYears>
+            <value>2018</value>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>N/A</firstName>
+                <lastName>Upshot Fund II GP, LLC</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>255 S. Orange Ave., Suite 720</street1>
+                <city>Orlando</city>
+                <stateOrCountry>FL</stateOrCountry>
+                <stateOrCountryDescription>FLORIDA</stateOrCountryDescription>
+                <zipCode>32801</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>General Partner</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>N/A</firstName>
+                <lastName>Upshot Capital Advisors, LLC</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>255 S. Orange Ave., Suite 720</street1>
+                <city>Orlando</city>
+                <stateOrCountry>FL</stateOrCountry>
+                <stateOrCountryDescription>FLORIDA</stateOrCountryDescription>
+                <zipCode>32801</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Promoter</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Fund Manager</relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Raul</firstName>
+                <lastName>Socarras</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>255 S. Orange Ave., Suite 720</street1>
+                <city>Orlando</city>
+                <stateOrCountry>FL</stateOrCountry>
+                <stateOrCountryDescription>FLORIDA</stateOrCountryDescription>
+                <zipCode>32801</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification>Managing Member of the General Partner</relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pooled Investment Fund</industryGroupType>
+            <investmentFundInfo>
+                <investmentFundType>Private Equity Fund</investmentFundType>
+                <is40Act>false</is40Act>
+            </investmentFundInfo>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+            <item>3C</item>
+            <item>3C.1</item>
+            <item>3C.5</item>
+            <item>3C.7</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <yetToOccur>true</yetToOccur>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+            <isPooledInvestmentFundType>true</isPooledInvestmentFundType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>0</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>25000000</totalOfferingAmount>
+            <totalAmountSold>0</totalAmountSold>
+            <totalRemaining>25000000</totalRemaining>
+            <clarificationOfResponse>The total offering amount is subject to an increase as determined by the Managing Member of the General Partner.</clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>0</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse>This excludes any internal marketing staff who may be
+paid compensation, but not commissions, for their duties.</clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse>Does not include any ongoing management fees or carried interest paid or allocated to the Fund Manager or General Partner under the operating documents.</clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>Upshot Real Estate Fund II, LP</issuerName>
+                <signatureName>/s/ Raul Socarras</signatureName>
+                <nameOfSigner>Raul Socarras</nameOfSigner>
+                <signatureTitle>Managing Member of the General Partner</signatureTitle>
+                <signatureDate>2018-06-26</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>
+</XML>

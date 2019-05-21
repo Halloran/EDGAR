@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<edgarSubmission>
+
+    <schemaVersion>X0707</schemaVersion>
+
+    <submissionType>D</submissionType>
+
+    <testOrLive>LIVE</testOrLive>
+
+    <primaryIssuer>
+        <cik>0001171623</cik>
+        <entityName>DIFFUSION PHARMACEUTICALS LLC</entityName>
+        <issuerAddress>
+            <street1>2020 AVON COURT, #4</street1>
+            <city>CHARLOTTESVILLE</city>
+            <stateOrCountry>VA</stateOrCountry>
+            <stateOrCountryDescription>VIRGINIA</stateOrCountryDescription>
+            <zipCode>22902</zipCode>
+        </issuerAddress>
+        <issuerPhoneNumber>434-220-0718</issuerPhoneNumber>
+        <jurisdictionOfInc>VIRGINIA</jurisdictionOfInc>
+        <issuerPreviousNameList>
+            <value>None</value>
+        </issuerPreviousNameList>
+        <edgarPreviousNameList>
+            <value>None</value>
+        </edgarPreviousNameList>
+        <entityType>Limited Liability Company</entityType>
+        <yearOfInc>
+            <overFiveYears>true</overFiveYears>
+        </yearOfInc>
+    </primaryIssuer>
+
+    <relatedPersonsList>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>David</firstName>
+                <middleName>G.</middleName>
+                <lastName>Kalergis</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>2020 AVON COURT, #4</street1>
+                <city>Charlottesville</city>
+                <stateOrCountry>VA</stateOrCountry>
+                <stateOrCountryDescription>VIRGINIA</stateOrCountryDescription>
+                <zipCode>22902</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>John</firstName>
+                <middleName>L.</middleName>
+                <lastName>Gainer</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>2020 AVON COURT, #4</street1>
+                <city>Charlottesville</city>
+                <stateOrCountry>VA</stateOrCountry>
+                <stateOrCountryDescription>VIRGINIA</stateOrCountryDescription>
+                <zipCode>22902</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Thomas</firstName>
+                <middleName>E.</middleName>
+                <lastName>Byrne</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>2020 AVON COURT, #4</street1>
+                <city>Charlottesville</city>
+                <stateOrCountry>VA</stateOrCountry>
+                <stateOrCountryDescription>VIRGINIA</stateOrCountryDescription>
+                <zipCode>22902</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Robert</firstName>
+                <middleName>W.</middleName>
+                <lastName>Adams</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>2020 AVON COURT, #4</street1>
+                <city>Charlottesville</city>
+                <stateOrCountry>VA</stateOrCountry>
+                <stateOrCountryDescription>VIRGINIA</stateOrCountryDescription>
+                <zipCode>22902</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Director</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+        <relatedPersonInfo>
+            <relatedPersonName>
+                <firstName>Ben</firstName>
+                <middleName>L.</middleName>
+                <lastName>Shealy</lastName>
+            </relatedPersonName>
+            <relatedPersonAddress>
+                <street1>2020 AVON COURT, #4</street1>
+                <city>Charlottesville</city>
+                <stateOrCountry>VA</stateOrCountry>
+                <stateOrCountryDescription>VIRGINIA</stateOrCountryDescription>
+                <zipCode>22902</zipCode>
+            </relatedPersonAddress>
+            <relatedPersonRelationshipList>
+                <relationship>Executive Officer</relationship>
+            </relatedPersonRelationshipList>
+            <relationshipClarification></relationshipClarification>
+        </relatedPersonInfo>
+    </relatedPersonsList>
+
+    <offeringData>
+        <industryGroup>
+            <industryGroupType>Pharmaceuticals</industryGroupType>
+        </industryGroup>
+        <issuerSize>
+            <revenueRange>Decline to Disclose</revenueRange>
+        </issuerSize>
+        <federalExemptionsExclusions>
+            <item>06b</item>
+        </federalExemptionsExclusions>
+        <typeOfFiling>
+            <newOrAmendment>
+                <isAmendment>false</isAmendment>
+            </newOrAmendment>
+            <dateOfFirstSale>
+                <value>2006-09-15</value>
+            </dateOfFirstSale>
+        </typeOfFiling>
+        <durationOfOffering>
+            <moreThanOneYear>false</moreThanOneYear>
+        </durationOfOffering>
+        <typesOfSecuritiesOffered>
+            <isEquityType>true</isEquityType>
+        </typesOfSecuritiesOffered>
+        <businessCombinationTransaction>
+            <isBusinessCombinationTransaction>false</isBusinessCombinationTransaction>
+            <clarificationOfResponse></clarificationOfResponse>
+        </businessCombinationTransaction>
+        <minimumInvestmentAccepted>55000</minimumInvestmentAccepted>
+        <salesCompensationList></salesCompensationList>
+        <offeringSalesAmounts>
+            <totalOfferingAmount>1512500</totalOfferingAmount>
+            <totalAmountSold>1029908</totalAmountSold>
+            <totalRemaining>482592</totalRemaining>
+            <clarificationOfResponse></clarificationOfResponse>
+        </offeringSalesAmounts>
+        <investors>
+            <hasNonAccreditedInvestors>false</hasNonAccreditedInvestors>
+            <totalNumberAlreadyInvested>15</totalNumberAlreadyInvested>
+        </investors>
+        <salesCommissionsFindersFees>
+            <salesCommissions>
+                <dollarAmount>0</dollarAmount>
+            </salesCommissions>
+            <findersFees>
+                <dollarAmount>0</dollarAmount>
+            </findersFees>
+            <clarificationOfResponse></clarificationOfResponse>
+        </salesCommissionsFindersFees>
+        <useOfProceeds>
+            <grossProceedsUsed>
+                <dollarAmount>0</dollarAmount>
+            </grossProceedsUsed>
+            <clarificationOfResponse></clarificationOfResponse>
+        </useOfProceeds>
+        <signatureBlock>
+            <authorizedRepresentative>false</authorizedRepresentative>
+            <signature>
+                <issuerName>DIFFUSION PHARMACEUTICALS LLC</issuerName>
+                <signatureName>/s/ David G. Kalergis</signatureName>
+                <nameOfSigner>David G. Kalergis</nameOfSigner>
+                <signatureTitle>Chief Executive Officer</signatureTitle>
+                <signatureDate>2006-06-21</signatureDate>
+            </signature>
+        </signatureBlock>
+    </offeringData>
+</edgarSubmission>
