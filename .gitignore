@@ -1,2 +1,3 @@
 /downloaded
 *.rds
+.DS_Store

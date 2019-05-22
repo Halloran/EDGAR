@@ -4,14 +4,14 @@ setwd('~/R/EDGAR')
 
 trim.trailing <- function (x) sub("\\s+$", "", x)
 
-# set up the empty file
+# set up the empty table
 filings <- data.table(V1 = character(),
                       V2 = character(), 
                       V3 = numeric(), 
                       V4 = as.Date(x = integer(0), origin = '1970-01-01'), 
                       V5 = character())
 
-# read the index file
+# read the directory to get all files to be processed
 form_files <- list.files('./downloaded', full.names = TRUE)
 
 for(current_file in form_files) {
