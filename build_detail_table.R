@@ -5,7 +5,7 @@ library(XML)
 setwd('~/R/EDGAR')
 
 # should load the file only if it is necessary - i.e. it is not already in memory
-filings <- readRDS('filings.rds')
+# filings <- readRDS('filings.rds')
 
 getPrimaryDocUrl <- function(original_file_name) {
   baseurl <- 'https://www.sec.gov/Archives/'
@@ -58,8 +58,8 @@ getFilingDetail <- function(form_d_file) {
   recipientCRDNumber  <- xpathApply(ns[[1]], "//offeringData/salesCompensationList/recipient/recipientCRDNumber", xmlValue, recursive = FALSE)
   associatedBDName  <- xpathApply(ns[[1]], "//offeringData/salesCompensationList/recipient/associatedBDName", xmlValue, recursive = FALSE)
   associatedBDCRDNumber  <- xpathApply(ns[[1]], "//offeringData/salesCompensationList/recipient/associatedBDCRDNumber", xmlValue, recursive = FALSE)
-  salesCommission  <- xpathApply(ns[[1]], "//offeringData/salesCommissionsFindersFees/salesCommission", xmlValue, recursive = FALSE)
-  findersFees  <- xpathApply(ns[[1]], "//offeringData/salesCommissionsFindersFees/findersFees", xmlValue, recursive = FALSE)
+  salesCommissionDollarAmount  <- xpathApply(ns[[1]], "//offeringData/salesCommissionsFindersFees/salesCommission/dollarAmount", xmlValue, recursive = FALSE)
+  findersFeesDollarAmount  <- xpathApply(ns[[1]], "//offeringData/salesCommissionsFindersFees/findersFees/dollarAmount", xmlValue, recursive = FALSE)
   totalOfferingAmount <- xpathApply(ns[[1]], "//offeringData/offeringSalesAmounts/totalOfferingAmount", xmlValue, recursive = FALSE)
   totalAmountSold <- xpathApply(ns[[1]], "//offeringData/offeringSalesAmounts/totalAmountSold", xmlValue, recursive = FALSE)
   typesOfSecuritiesOfferedOtherDescription <- xpathApply(ns[[1]], "//offeringData/typesOfSecuritiesOffered/isOtherType/descriptionOfOtherType", xmlValue, recursive = FALSE)
@@ -97,8 +97,8 @@ getFilingDetail <- function(form_d_file) {
     recipientCRDNumber = checkForZeroStrings(paste(unlist(recipientCRDNumber), collapse = '|')),
     associatedBDName = checkForZeroStrings(paste(unlist(associatedBDName), collapse = '|')),
     associatedBDCRDNumber = checkForZeroStrings(paste(unlist(associatedBDCRDNumber), collapse = '|')),
-    salesCommission = checkForZeroStrings(unlist(salesCommission)),
-    findersFees = checkForZeroStrings(unlist(findersFees)),
+    salesCommissionDollarAmount = checkForZeroStrings(unlist(salesCommissionDollarAmount)),
+    findersFeesDollarAmount = checkForZeroStrings(unlist(findersFeesDollarAmount)),
     totalOfferingAmount = checkForZeroStrings(unlist(totalOfferingAmount)),
     totalAmountSold = checkForZeroStrings(unlist(totalAmountSold)),
     typesOfSecuritiesOfferedOtherDescription = checkForZeroStrings(unlist(typesOfSecuritiesOfferedOtherDescription))
@@ -139,8 +139,8 @@ detail_table <- data.table(originalFileName = character(),
                            recipientCRDNumber = character(),
                            associatedBDName = character(),
                            associatedBDCRDNumber = character(),
-                           salesCommission = character(),
-                           findersFees = character(),
+                           salesCommissionDollarAmount = character(),
+                           findersFeesDollarAmount = character(),
                            totalOfferingAmount = character(),
                            totalAmountSold = character(),
                            typesOfSecuritiesOfferedOtherDescription = character()
@@ -153,10 +153,19 @@ rm(filings)
 
 # first line below is commented as an example of how to use with a smaller dataset than the entire one
 # for(row in 1:nrow(head(reg_d_filings, 100))) {
-for(row in 1:nrow(reg_d_filings)) {
+# another way is to work from the end of the detail_table:
+for(row in (nrow(detail_table)+1):nrow(reg_d_filings)) {
+# for(row in 1:nrow(reg_d_filings)) {
     print(reg_d_filings[row,]$V4) # the date of the file being processed
     detail_table <- rbind(detail_table, getFilingDetail(reg_d_filings[row,]$V5))
 }
 
 # save the reg_d_filings table to an RDS file
+saveRDS(detail_table, 'detail_table.rds')
+# to read it in later:
+# detail_table <- readRDS('detail_table.rds')
+
+# now mege the two tables together to have everything in one place, and save the table
+reg_d_filings$V6 <- getPrimaryDocUrl(reg_d_filings$V5)
+detail_table <- merge(reg_d_filings, detail_table, by.x = "V6", by.y = "originalFileName", sort = FALSE)
 saveRDS(detail_table, 'detail_table.rds')
