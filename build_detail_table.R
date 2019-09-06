@@ -168,4 +168,17 @@ saveRDS(detail_table, 'detail_table.rds')
 # now mege the two tables together to have everything in one place, and save the table
 reg_d_filings$V6 <- getPrimaryDocUrl(reg_d_filings$V5)
 detail_table <- merge(reg_d_filings, detail_table, by.x = "V6", by.y = "originalFileName", sort = FALSE)
+
+names(detail_table) <- c("Original Document URL", "Document Type", "Issuer Name", "CIK", "Date", "Doc URL", "Test Or Live", 
+                         "issuerName", "cik", "Issuer State", "Issuer Zip", "Issuer Entity Type", 
+                         "Issuer Entity Type Other Desc", "Industry Group", "Industry Group Type", "Investment Fund Type", 
+                         "Revenue Range", "NAV Range", "Federal Exemptions", "Is Amendment", "Amended Doc Accession Number", 
+                         "Date Of First Sale", "Duration Of Offering More Than One Year", "Is Equity Type", "Is Debt Type", 
+                         "Is Option To Acquire Type", "Is Security To Be Acquired Type", "Is Other Type", 
+                         "Description Of Other Type", "Is Pooled Investment Fund Type", "Is Tenant In Common Type", 
+                         "Is Mineral Property Type", "Is Business Combination Transaction", "Minimum Investment Accepted", 
+                         "Recipient Name", "Recipient CRD Number", "Associated BD Name", "Associated BD CRD Number", 
+                         "Sales Commission Dollar Amount", "Finders Fees Dollar Amount", "Total Offering Amount", 
+                         "Total Amount Sold", "Types Of Securities Offered Other Description")
+
 saveRDS(detail_table, 'detail_table.rds')

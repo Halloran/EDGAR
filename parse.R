@@ -19,6 +19,7 @@ for(current_file in form_files) {
     x$V4 <- as.Date(x$V4)
     x[,c(1,2,5)] <- lapply(x[,c(1,2,5)], trim.trailing)
     filings <- rbind(filings, data.table(x))
+    print(current_file)
 }
 
 # save the filings data.table to an rds file - compresses down nicely!
